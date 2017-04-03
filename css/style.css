@@ -1,0 +1,109 @@
+* {
+  font-family: 'Cousine', monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  border-style: inset;
+  border-width: 3px;
+  border-color: black;
+  padding: 5px;
+  margin: 1rem;
+  max-width: 50rem;
+}
+
+label.control-label {
+  color: #120A08;
+}
+
+form.form-horizontal {
+  background: #A5A38E;
+}
+
+input#bill-amount.form-control {
+  color: #F1ECE8;
+  background: #8C5730;
+  width: 20rem;
+}
+
+input#tip-percent.form-control {
+  color: #F1ECE8;
+  background: #8C5730;
+  width: 20rem;}
+
+label#tip-amount.form-control {
+  color: #F1ECE8;
+  background: #8C5730;
+  width: 20rem;
+}
+
+label#total-bill.form-control {
+  color: #F1ECE8;
+  background: #8C5730;
+  width: 20rem;
+}
+
+button#calculateButton.btn.btn-primary {
+  color: #F1ECE8;
+  background: #C36A34;
+}
+
+button#clearButton.btn.btn-secondary {
+  color: #F1ECE8;
+  background: #C36A34;
+}
+
+input:invalid {
+  outline: 3px solid red;
+}
+input:focus:invalid {
+  color: red;
+}
+
+
+
+form.form-horizontal {
+  /*background: #44433C;*/
+}
+
+label {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+input#bill-amount.form-control {
+/*  font-weight: bold;
+  color: #F82323; */
+}
+
+input#tip-percent.form-control {
+/*  font-weight: bold;
+  color: #F82323;*/
+}
+
+#bill-amount {
+  /* font-weight: bold;
+  color: #F3491C;
+  background: #082323; */
+}
+
+#tip-percent {
+  /* font-weight: bold;
+  color: #F3491C;
+  background: #082323; */
+}
+
+#bill-amount, #tip-percent {
+/*  font-weight: bold;
+  color: #F3491C;
+  background: #082323;*/
+}
+
+#bill-amount #tip-amount {
+ /* font-weight: bold;*/
+}
+
+*/

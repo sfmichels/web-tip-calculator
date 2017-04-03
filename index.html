@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>TipCalculator</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <br>
+<form class="form-horizontal">
+  <h1>Tip Calculator</h1>
+  <div class="form-group">
+    <label for="bill-amount-label" class="control-label col-xs-4">Bill Amount</label>
+    <div class="col-xs-8">
+      <input id="bill-amount" type="number" min="0" max="1000000" step="0.01"  class="form-control" placeholder="Bill Amount">
+    </div>
+  </div>  
+  
+  <div class="form-group">
+    <label for="tip-percent" class="control-label col-xs-4">Tip %</label>
+    <div class="col-xs-8">
+      <input id="tip-percent" type="number" class="form-control" placeholder="Tip %">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="tip-amount" class="control-label col-xs-4">Tip Amount</label>
+    <div class="col-xs-8">
+      <label class="form-control" id="tip-amount">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="total-bill" class="control-label col-xs-4">Total Bill</label>
+    <div class="col-xs-8">
+      <label class="form-control" id="total-bill">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-xs col-xs-offset-2">
+      <button type="submit" id="calculateButton" class="btn btn-primary">Calculate</button>
+      <button type="submit" id="clearButton" class="btn btn-secondary">Clear</button>
+    </div>
+  </div>
+</form>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
